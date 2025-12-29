@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ختام الجلسة - لغة أبجد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>شكراً لحضوركم!</h2>
+        <p>اكتب اسمك لتحصل على رسالة الوداع البرمجية:</p>
+        
+        <input type="text" id="userName" placeholder="أدخل اسمك هنا..." autocomplete="off">
+        <button id="generateBtn">اصنع الكود</button>
+
+        <div class="result-box" id="resultArea">
+            <p>انسخ الكود التالي:</p>
+            <textarea id="abjadCode" readonly></textarea>
+            
+            <br>
+            <a href="https://mohammed.ezzedine.me/abjad/interpreter/" target="_blank" class="action-link">
+                جرب الكود من هنا 
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
