@@ -1,0 +1,88 @@
+/* إعدادات الصفحة العامة */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* الحاوية الرئيسية */
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* حقل الإدخال */
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* الزر */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* منطقة النتيجة */
+.result-box {
+    display: none; /* مخفي افتراضياً */
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* مربع الكود */
+textarea {
+    width: 100%;
+    height: 80px;
+    direction: rtl;
+    font-family: monospace;
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+}
+
+/* رابط التجربة */
+.action-link {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.action-link:hover {
+    background-color: #0056b3;
+}
